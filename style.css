@@ -1,0 +1,37 @@
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+h1{
+    background-color: whitesmoke;
+    color:rgb(0, 11, 13) ;
+    font-family:monospace;
+    font-weight: bold;
+    
+}
+#show_sketch{
+    float: right;
+   background-color: rgb(201, 84, 201);
+}
+canvas{
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes animation1{
+    from{box-shadow: 2px 2px 40px rgb(238, 185, 53);}
+    to{box-shadow: 2px 2px 40px rgb(160, 236, 39);}
+}
+p{
+    margin-top: 10px;
+    font-size: 22px;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border-color: black;
+    max-width: 160px;
+    font-family: 'Courier New', Courier, monospace;
+}
